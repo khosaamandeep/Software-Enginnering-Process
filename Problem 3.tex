@@ -1,0 +1,66 @@
+\documentclass[a4paper, 11pt]{article}
+\usepackage{comment} % enables the use of multi-line comments (\ifx \fi) 
+\usepackage{fullpage} % changes the margin
+\usepackage{hyperref}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{booktabs} % For formal tables
+\usepackage[ruled]{algorithm2e} % For algorithms
+\renewcommand{\algorithmcfname}{ALGORITHM}
+\pagenumbering{gobble}
+
+\begin{document}\textbf{Problem 3: - }Collaboratively brainstorm and mind map with your team members to decide a
+pseudocode format. The pseudocode format must be identical across the team. Select
+algorithms for implementing your function and all its subordinate functions, if any.
+Give technical reasons for selecting each of the algorithms, including their advantages
+and disadvantages. (This, by reference, means that you must have at least two options to
+choose from.)\par
+
+\begin{enumerate}
+
+
+\begin{algorithm}
+begin: \\
+1. verifyInputIsRealNumber(a,b,x)\\
+2. Set temp = 1 \\ 
+3. $\hspace{2em}$FOR COUNTER = 1 TO x \\
+4. $\hspace{3em}$ UPDATE TEMP TO TEMP * b\\
+5. counter = 0\\
+6. temp2 = 1\\
+7. $\hspace{2em}$ UPDATE temp2 TO a*temp2\\
+8. PRINT TEMP2 \\
+9. READ new value for X\\
+10. REPEAT the algorithm for new value \\
+end
+\caption{ALGORITHM - NAME (a,b,x (input set))}
+\end{algorithm}
+
+\begin{algorithm}
+begin:\\
+1.IF  a,b,x $\in -\infty$  to  +$\infty$ \\
+2. $\hspace{2em}$ continue with processing\\
+3. else\\
+4. $\hspace{2em}$ print error and take new inputs \\
+end
+\caption{verifyInputIsRealNumber(a,b,x)}
+\end{algorithm}
+
+\begin{enumerate}
+    \item For Input : use READ
+    \item For output : use PRINT
+    \item For calculation : use COMPUTE
+    \item For Initialize: use SET 
+    \item For Add one: use INCREMENT 
+\end{enumerate}
+\\Advantages:-
+\begin{enumerate}
+  \item Exponential function is used to model population and help   coroners determine the time of death.
+ \item  This function also assist in computing investments and used in radioactive decay.
+ \end{enumerate}
+ \\Disadvantages:-
+\begin{enumerate}
+\item Exponential functions are always either positive or negative.
+\item The function lives entirely on one side or other side of the x-axis.
+\end{enumerate}
+\end{document}
