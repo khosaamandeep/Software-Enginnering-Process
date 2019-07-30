@@ -1,0 +1,208 @@
+
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{latexsym}
+\usepackage{amsfonts}
+\usepackage[normalem]{ulem}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[backend=biber,
+style=numeric,
+sorting=none,
+isbn=false,
+doi=false,
+url=false,
+]{biblatex}\addbibresource{bibliography.bib}
+
+\usepackage{subfig}
+\usepackage{wrapfig}
+\usepackage{wasysym}
+\usepackage{enumitem}
+\usepackage{adjustbox}
+\usepackage{ragged2e}
+\usepackage[svgnames,table]{xcolor}
+\usepackage{tikz}
+\usepackage{longtable}
+\usepackage{changepage}
+\usepackage{setspace}
+\usepackage{hhline}
+\usepackage{multicol}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{fancyhdr}
+\usepackage[toc,page]{appendix}
+\usepackage[hidelinks]{hyperref}
+\usetikzlibrary{shapes.symbols,shapes.geometric,shadows,arrows.meta}
+\tikzset{>={Latex[width=1.5mm,length=2mm]}}
+\usepackage{flowchart}\usepackage[paperheight=11.0in,paperwidth=8.5in,left=1.0in,right=1.0in,top=1.0in,bottom=1.0in,headheight=1in]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\TabPositions{0.5in,1.0in,1.5in,2.0in,2.5in,3.0in,3.5in,4.0in,4.5in,5.0in,5.5in,6.0in,}
+
+\urlstyle{same}
+
+
+
+
+
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+
+
+
+
+\setlistdepth{9}
+\renewlist{enumerate}{enumerate}{9}
+		\setlist[enumerate,1]{label=\arabic*)}
+		\setlist[enumerate,2]{label=\alph*)}
+		\setlist[enumerate,3]{label=(\roman*)}
+		\setlist[enumerate,4]{label=(\arabic*)}
+		\setlist[enumerate,5]{label=(\Alph*)}
+		\setlist[enumerate,6]{label=(\Roman*)}
+		\setlist[enumerate,7]{label=\arabic*}
+		\setlist[enumerate,8]{label=\alph*}
+		\setlist[enumerate,9]{label=\roman*}
+
+\renewlist{itemize}{itemize}{9}
+		\setlist[itemize]{label=$\cdot$}
+		\setlist[itemize,1]{label=\textbullet}
+		\setlist[itemize,2]{label=$\circ$}
+		\setlist[itemize,3]{label=$\ast$}
+		\setlist[itemize,4]{label=$\dagger$}
+		\setlist[itemize,5]{label=$\triangleright$}
+		\setlist[itemize,6]{label=$\bigstar$}
+		\setlist[itemize,7]{label=$\blacklozenge$}
+		\setlist[itemize,8]{label=$\prime$}
+
+\setlength{\topsep}{0pt}\setlength{\parskip}{8.04pt}
+\setlength{\parindent}{0pt}
+
+ 
+
+
+\renewcommand{\arraystretch}{1.3}
+
+
+
+
+
+
+\begin{document}
+\setlength{\parskip}{0.0pt}
+\textbf{Name: Amandeep Kaur Khosa}\par
+
+\textbf{Student ID: 40067608}\par
+
+
+\vspace{\baselineskip}
+\begin{Center}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{PROBLEM 4}\par}
+\end{Center}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{Debugger: Eclipse Debugger}\par}\par
+
+
+\vspace{\baselineskip}
+The primary reason for debugging is not to figure out how to solve it, to find out where a bug is. To debug my function   \( F6:ab^{x} \)  I have used Eclipse Debugger. The Java tools (Eclipse IDE) that I'm using, collectively known as the Java Development Kit, include a debugger called jdb. \par
+
+
+\vspace{\baselineskip}
+\textbf{Advantages}\par
+
+\begin{enumerate}
+	\item One of Eclipse's greatest characteristics is the Debug Perspective, showing appropriate side-by-side debugging data like variables, breakpoints, threads, and call stacks.\par
+
+	\item We do not have to change our code because the debugger is outside of the program.\par
+
+	\item A new feature in the Eclipse Platform that enables users to create conditional breakpoints to print emails without stopping at breakpoints and cluttering the code base.
+\end{enumerate}\par
+
+
+\vspace{\baselineskip}
+\textbf{Disadvantages }\par
+
+\begin{enumerate}
+	\item Eclipse has updated version issues. It restarts while installing new plugin and software versions that make it hard to use.\par
+
+	\item It's not running in real time, so sometimes it can't be buggy to reveal all JDB issues.\par
+
+	\item It is not simple to configure with other third-party applications and documentation is not readily available.
+\end{enumerate}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{CheckStyle Eclipse Plugin}\par}\par
+
+
+\vspace{\baselineskip}
+ The plugin Eclipse Checkstyle 8.1(aka\ eclipse-cs) integrates the analyzer of static source code into the Eclipse IDE.  Checkstyle will assist by reviewing our coding style, i.e. braces, naming etc. during our programming. I have used the plugin CheckStyle Eclipse and pursued the Style Checkstyle configuration found at \href{https://google.github.io/styleguide/javaguide.html}{https://google.github.io/styleguide/javaguide.html}.\par
+
+
+\vspace{\baselineskip}
+\textbf{Advantages}\par
+
+\begin{enumerate}
+	\item CheckStyle will implement your code's rulesets.\par
+
+	\item It will ensure that everybody in the team will write code similarly. Ensures that the code is consistent with excellent programming methods that improve the code's quality, readability, reusability and can decrease the price of the devel option.
+\end{enumerate}\par
+
+
+\vspace{\baselineskip}
+\textbf{Disadvantages}\par
+
+\begin{enumerate}
+	\item Check style's checks are mostly restricted to the code presentation. These controls do \par
+
+\ \ \  not verify the code's accuracy or completeness.\par
+
+	\item It finds no duplication of code across projects and is restricted to JAVA.
+\end{enumerate}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{References}\par}\par
+
+
+\vspace{\baselineskip}
+\setlength{\parskip}{8.04pt}
+\setlength{\parskip}{0.0pt}
+[1] \textcolor[HTML]{222222}{Lars Vogel (c) 2009, 2. (2019). Java Debugging with Eclipse - Tutorial. [online] Vogella.com. Available at: \href{https://www.vogella.com/tutorials/EclipseDebugging/article.html}{https://www.vogella.com/tutorials/EclipseDebugging/article.html} [Accessed 29 Jul. 2019]. }\par
+
+[2] \href{http://en.wikipedia.org/}{\textcolor[HTML]{1155CC}{En.wikipedia.org}. (2019). Checkstyle. [online] }\par
+
+\textcolor[HTML]{222222}{Available at: \href{https://en.wikipedia.org/wiki/Checkstyle}{https://en.wikipedia.org/wiki/Checkstyle} [Accessed 29 Jul. 2019]}\par
+
+
+\vspace{\baselineskip}
+{\fontsize{14pt}{16.8pt}\selectfont \textbf{\textcolor[HTML]{222222}{GitHub Link}}\par}\par
+
+
+\vspace{\baselineskip}
+\textcolor[HTML]{222222}{https://github.com/khosaamandeep/Software-Enginnering-Process}\par
+
+
+\vspace{\baselineskip}
+\\
+
+\vspace{\baselineskip}
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\vspace{\baselineskip}
+
+\printbibliography
+\end{document}
